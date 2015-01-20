@@ -15,7 +15,7 @@ gem 'bootstrap-sass', '~> 3.0.2.1'
 
 gem 'omniauth-github'
 gem 'omniauth-twitter'
-
+gem 'newrelic_rpm'
 gem 'chartkick'
 gem 'groupdate'
 gem 'country_select', '~> 1.3.1'
