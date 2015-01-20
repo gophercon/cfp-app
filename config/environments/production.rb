@@ -85,8 +85,8 @@ CFPApp::Application.configure do
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
     :authentication => :plain,
-    :user_name      => ENV['gophercon'],
-    :password       => ENV['G0pherAcademy'],
+    :user_name      => ENV['SENDGRID_NAME'],
+    :password       => ENV['SENDGRID_PASS'],
     :domain         => 'heroku.com',
     :enable_starttls_auto => true
   }
